@@ -20,5 +20,5 @@
 
 -- Load start screen (it sends application to file 'start.lua'), existing scene is hidden
 
-	composer.gotoScene( "menu" )
+	composer.gotoScene( "scripts.intro" )
 

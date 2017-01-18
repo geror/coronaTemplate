@@ -11,7 +11,7 @@ function scene:create(event)
 	-- add graphic elements to screen
 	local background 	= display.newRect( sceneGroup, 0, 0, display.contentWidth, display.contentHeight )
 	background:setFillColor( .75, .39, 0 )
-	scoreButton = display.newImage(sceneGroup, "startbutton.png", 264.670)
+	scoreButton = display.newImage(sceneGroup, "images/entrarButton.jpg", 100, 100)
 end
 
 function scene:show(event)
@@ -24,7 +24,7 @@ function scene:hide(event)
 end
 
 function scoreScene()
-	composer.gotoScene('scoreScene')
+	composer.gotoScene('scripts.scoreScene')
 end
 
 

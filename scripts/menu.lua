@@ -18,8 +18,7 @@
 		-- add graphic elements to screen
 		local background 	= display.newRect( sceneGroup, 0, 0, display.contentWidth, display.contentHeight )
 		background:setFillColor( 0, .39, .75 )
-		--local bigPlane = display.newImage( sceneGroup, "bigplane.png", 0, 0 )
-		startButton = display.newImage( sceneGroup, "startbutton.png", 264, 670 )
+		startButton = display.newImage( sceneGroup, "images/entrarButton.jpg", 100, 100 )
 	end
 
 -- Show 'start scene'
@@ -37,7 +36,7 @@
 -- Function which sends to 'gamelevel'
 
 	function startGame( )
-		composer.gotoScene('gameLevelOne')
+		composer.gotoScene('scripts.gameLevelOne')
 	end
 
 -- Adding Listeners to scene
